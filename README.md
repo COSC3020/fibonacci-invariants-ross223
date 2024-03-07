@@ -29,8 +29,11 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-A good invariant would be "The array tmp contains the first i fibonacci numbers".
-This is a good invariant because it is true for every step of the recursion. At
-the beginning, the array conatains the first 2 fibonacci numbers and i is set to
-2. As the recursion happens i is incremented by 1 and the next fibonacci number
-is added to the array making the statement true again.
+A good invariant would be "The array tmp contains the first i - 1 fibonacci numbers". 
+This is a good invariant because it is true for every step of the recursion. At the 
+beginning, the array conatains the first 2 fibonacci numbers and i is set to 2. "i" is 
+then incremented by 1 and set to 3, so when the recursions starts, tmp has 2 fibonacci 
+numbers making the statement true. Then the next fibonnaci number is calulated and 
+added to the array, and the recusion continues. As this happens i is incremented by 1 
+and the next fibonacci number is added to the array making the statement true again 
+until the recusion is done.

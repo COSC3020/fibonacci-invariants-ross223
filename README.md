@@ -38,3 +38,8 @@ and added to the array, i is incremented and the recusion continues because i is
 equal to the total number of fibonacci numbers in the array. As the recusions
 happens i is incremented by 1 and the next fibonacci number is added to the array 
 making the statement true again until the recusion is done.
+
+## Sources
+
+The lecture slides and the video was really helpful for clarification on the
+invariant

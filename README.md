@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rzkZS2Jf)
 # Fibonacci Invariants
 
 Recall the definition of the Fibonacci series: the first number is 0, the second
@@ -27,3 +28,18 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+A good invariant would be "The array tmp contains the first i fibonacci numbers, 
+where i is the index of the fobinacci number being calculated". This is a good 
+invariant because it is true for every step of the recursion. At the beginning, 
+the array conatains the first 2 fibonacci numbers and i is set to 2. This makes the 
+statement true so the recusion starts. Then the next fibonnaci number is calulated 
+and added to the array, i is incremented and the recusion continues because i is 
+equal to the total number of fibonacci numbers in the array. As the recusions
+happens i is incremented by 1 and the next fibonacci number is added to the array 
+making the statement true again until the recusion is done.
+
+## Sources
+
+The lecture slides and the video was really helpful for clarification on the
+invariant
